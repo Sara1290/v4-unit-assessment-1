@@ -65,6 +65,7 @@ body {
     border: 1px solid black;
     background-color: white;
     
+    
 }
 
 .snowman-tummy {
@@ -73,19 +74,19 @@ body {
     border-radius: 50%;
     border: 1px solid black;
     background-color: white;
-    
-
 }
 
 .snowman-bottom {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
     border: 1px solid black;
     background-color: white;
     
+    
+
     /*note to self figure out how to line the snow
-    man up-right. how do i put a face and button?*/
+    man up-right. how do i put a face and buttons?*/
 }
 
 .bottom-container {
@@ -94,6 +95,7 @@ body {
     padding: 5px;
     box-sizing: border-box;
     margin-top: 25px;
+    
 }
 
 .yellow-box{

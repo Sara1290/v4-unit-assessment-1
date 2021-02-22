@@ -91,7 +91,7 @@ const commit = {
 //CODE HERE
 let addRemote = {
     description: "i don't know",
-    code: "git remote"
+    code: "git add remote "
 }
 //////////////////PROBLEM 9////////////////////
 /*

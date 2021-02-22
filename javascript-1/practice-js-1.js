@@ -34,12 +34,13 @@ sum(4,5)
 
 //CODE HERE
 function trueOrFalse(data){
-  if (true){
-    return true
+  if (data){
+     return true
   } else {
      return false
   }
   }
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -51,10 +52,10 @@ function trueOrFalse(data){
 
 //CODE HERE
 function oddChecker(num){
- if (num%1===1){
-   return "the number is odd"
- } else if (num%2===0){
+ if(num % 2 === 0){
     return "the number is even"
+ }else{
+    return "the number is odd"
  }
  
  }
@@ -93,7 +94,7 @@ colorCopy.push('blue')
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-let middleNums = [numbers.splice(1,4)]
+let middleNums = numbers.slice(1, 4)
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -155,7 +156,7 @@ function bigOrSmall(arr){
 function arrayReverser(arr){
   let reversed = []
   for(let i = reversed.length - 1; i >= 0; i--){
-    decArr[i] *= 3
+    reversed[i] *= 3
 }
 return reversed
 }
@@ -273,5 +274,5 @@ function carFactory(make, model, year){
       car.isNew(false)
     }
   }
-  return car
+  return car 
 }
